@@ -8,7 +8,7 @@
 		<Console name = "Console" target = "SYSTEM_OUT">
 			<PatternLayout pattern="${consolePattern}"/>
 		</Console>
-		<RollingFile name="DailyFile" fileName="logs/app.log" filePattern="logs/app-%d{yyyy-mm-dd}.log">
+		<RollingFile name="DailyFile" fileName="logs/app.log" filePattern="logs/app-%d{yyyy-MM-dd}.log">
 			<PatternLayout pattern="${filePattern}"/>
 			<Policies>
 				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
