@@ -15,4 +15,9 @@ public class App
     {
     	log.info("Hello world");
     }
+    
+    protected void protectedTest() {
+    	log.info("protected method");
+    }
 }
+
