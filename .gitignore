@@ -60,3 +60,6 @@ Desktop.ini
 *.swp
 *.bak
 *.tmp
+
+#patch files
+*.patch
